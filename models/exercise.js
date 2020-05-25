@@ -34,8 +34,7 @@ module.exports = (sequelize, DataTypes) => {
             defaultValue: 0,
         },
         sets: {
-            type: DataTypes.STRING,
-            defaultValue: 0,
+            type: DataTypes.STRING
         }
         // createdAt: {
         //     type: DataTypes.DATE,
